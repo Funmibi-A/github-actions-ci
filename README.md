@@ -77,8 +77,6 @@ The pipeline contains the following steps:
 7. **Build validation:** Compiles the Python application and test files to check for syntax errors.
 8. **Automated testing:** Runs the five unit tests using `unittest`.
 
-The workflow uses read-only repository content permissions and does not require credentials or secrets for this application.
-
 ## 8. Execution Results
 
 The Python application was tested locally before workflow automation. The local test run completed successfully, with all five tests passing.
@@ -97,8 +95,4 @@ The project evidence includes:
 ## 10. Troubleshooting
 
 During local setup, the `python` command was not available by default in Ubuntu. Python was installed and accessible through the `python3` command, so local testing was performed using `python3`.
-
-## 11. Conclusion
-
-This project demonstrates how GitHub Actions can automate Python application validation and testing. The workflow reduces reliance on manual test execution and provides visible feedback whenever changes are pushed or a pull request is opened.
 
