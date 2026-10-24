@@ -1,3 +1,6 @@
+![Python CI Pipeline](https://github.com/Funmibi-A/github-actions-ci/actions/workflows/ci.yml/badge.svg)
+
+
 # GitHub Actions CI Pipeline
 
 ## 1. Project Overview
